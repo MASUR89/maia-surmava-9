@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2EAE2;
+    
+}
+.container {
+    margin: 175px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+.left   {
+    width: 50%;
+    height: 100%;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.perfume {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.title {
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.text {
+    width: 237px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.price {
+    color: var(--Deep-Aquamarine, #3D8168);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.add {
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    background: #3D8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
